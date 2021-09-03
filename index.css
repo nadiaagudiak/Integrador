@@ -245,6 +245,22 @@ h2 {
     #contacto {
         padding: 8% 1%;
     }
+    .inicio-login {
+        min-height: 100hv;
+    }
+    .form-datos {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .datos {
+        width: 80vw;
+    }
+    .datos-login {
+        width: 40%;
+        margin-top: 20px;
+    }
 }
 
 @media (max-width: 480px) and (min-width: 320px) {
@@ -368,6 +384,4 @@ h2 {
         margin-top: 20px;
     }
     
-    
-
 }
